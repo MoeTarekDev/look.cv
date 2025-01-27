@@ -31,7 +31,7 @@ export default function page() {
           </div>
           <div>
             <p className="text-sm font-light text-foreground">
-              Currently, I'm a designer at Vercel where I translate complex
+              Currently, I&apos;m a designer at Vercel where I translate complex
               technical concepts into simple user experiences. Before that, I
               was the second designer at Graphite.
             </p>
@@ -89,9 +89,9 @@ export default function page() {
               <div className="text-sm font-normal">
                 <p>
                   Designing & building tools foHelped design, build, and launch
-                  Graphite's web app, CLI and VS Code extension out of Beta. Led
-                  design initiatives across all product and marketing sur the
-                  Frontend Cloud.
+                  Graphite&apos;s web app, CLI and VS Code extension out of
+                  Beta. Led design initiatives across all product and marketing
+                  sur the Frontend Cloud.
                 </p>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function page() {
               <div className="text-sm font-normal">
                 <p>
                   Was a Product Designer on the Pull Requests team. Most
-                  notably, helped ship GitHub's Merge Queue.
+                  notably, helped ship GitHub&apos;s Merge Queue.
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function page() {
                 <span>Aswan</span>
               </div>
               <div className="text-sm font-normal">
-                <p>Bachelor's Degree in Interaction Design.</p>
+                <p>Bachelor&apos;s Degree in Interaction Design.</p>
               </div>
             </div>
           </div>
