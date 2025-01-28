@@ -13,9 +13,11 @@ import { useCallback, useEffect, useState } from "react";
 export default function UserProjectsCarousel() {
   const [api, setApi] = useState<CarouselApi | null>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
-  const onScroll = useCallback((api) => {
-    const progress = Math.max(0, Math.min(1, api.scrollProgress()));
-    setScrollProgress(progress * 100);
+  const onScroll = useCallback((api: CarouselApi | null) => {
+    if (api) {
+      const progress = Math.max(0, Math.min(1, api.scrollProgress()));
+      setScrollProgress(progress * 100);
+    }
   }, []);
   useEffect(() => {
     if (!api) return;
