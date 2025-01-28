@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div className="relative">
       <UserProfilePopover />
-      <div className="profile-container flex flex-col gap-6 overflow-hidden">
+      <div className="profile-container flex flex-col gap-6 ">
         <section className="flex flex-col gap-7">
           <div className="flex items-center gap-5">
             <div>
