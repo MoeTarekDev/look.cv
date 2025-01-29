@@ -1,12 +1,6 @@
 import SignInButton from "@/components/SignInButton";
 import { Badge } from "@/components/ui/badge";
 export default function page() {
-  // let data = await getUser("moetarek@gmail.com");
-  // console.log(data);
-
-  // const session = await auth();
-  // console.log(session);
-
   return (
     <section className="h-screen">
       <div className="profile-container h-full flex flex-col gap-6 items-center justify-center ">
