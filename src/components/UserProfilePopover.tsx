@@ -6,8 +6,8 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import editIcon from "../../icons/edit.svg";
 import settingsIcon from "../../icons/settings.svg";
-import logoutIcon from "../../icons/log-out.svg";
 import Image from "next/image";
+import LogoutButton from "./LogoutButton";
 export default function UserProfilePopover() {
   return (
     <div className="fixed bottom-6 left-6">
@@ -52,12 +52,7 @@ export default function UserProfilePopover() {
             </div>
           </div>
 
-          <div className="py-2">
-            <div className="flex items-center gap-1 hover:bg-muted/50 py-1 px-3 cursor-pointer">
-              <Image src={logoutIcon} alt="Edit icon" className="w-6 h-6" />
-              <span className="text-sm font-normal">Log out</span>
-            </div>
-          </div>
+          <LogoutButton />
         </PopoverContent>
       </Popover>
     </div>
